@@ -1,3 +1,4 @@
+# encoding: utf-8
 module APN
   class Base < ActiveRecord::Base # :nodoc:
     self.abstract_class = true

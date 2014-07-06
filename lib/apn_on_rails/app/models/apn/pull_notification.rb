@@ -1,3 +1,4 @@
+# encoding: utf-8
 class APN::PullNotification < APN::Base
   belongs_to :app, :class_name => 'APN::App'
   

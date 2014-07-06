@@ -1,3 +1,4 @@
+# encoding: utf-8
 class APN::DeviceGrouping < APN::Base
   
   belongs_to :group, :class_name => 'APN::Group'

@@ -56,7 +56,7 @@ class APN::App < APN::Base
               noty.save
             end
           rescue Exception => e
-              puts ex.message e
+            puts e.message
           end
         end
       end
@@ -160,7 +160,7 @@ class APN::App < APN::Base
 
   protected
   def log_connection_exception(ex)
-  
+
   end
 
 end

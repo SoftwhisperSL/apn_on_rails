@@ -1,4 +1,5 @@
 # encoding: utf-8
+
 class APN::App < APN::Base
 
   has_many :groups, :class_name => 'APN::Group', :dependent => :destroy
@@ -55,7 +56,7 @@ class APN::App < APN::Base
               noty.save
             end
           rescue Exception => e
-            log_connection_exception(e)
+              puts ex.message e
           end
         end
       end
@@ -159,7 +160,7 @@ class APN::App < APN::Base
 
   protected
   def log_connection_exception(ex)
-    puts ex.message
+  
   end
 
 end

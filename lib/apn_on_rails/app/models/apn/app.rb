@@ -158,9 +158,8 @@ class APN::App < APN::Base
   end
 
 
-  protected
   def log_connection_exception(ex)
-
+    
   end
 
 end
